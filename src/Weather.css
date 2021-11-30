@@ -1,0 +1,26 @@
+.weather {
+  padding-top: 100px;
+}
+.weather .weatherIconHeading {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 20%;
+  padding-bottom: 50px;
+}
+.weather .weatherTemp {
+  font-size: 100px;
+}
+.weather .weatherIconForecast {
+  width: 30%;
+}
+.weather .dailyTemp {
+  text-align: right;
+}
+.weather .forecast {
+  border-left: 1px solid #c7c9ca;
+  padding-left: 30px;
+  padding-top: 50px;
+}
