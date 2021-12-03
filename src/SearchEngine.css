@@ -1,0 +1,13 @@
+.SearchEngine {
+  padding-bottom: 20px;
+  padding-top: 100px;
+  padding-left: 90px;
+}
+.SearchEngine .enterCity {
+  font-size: 13px;
+}
+
+.SearchEngine .searchButton {
+  font-size: 13px;
+  margin-left: 10px;
+}

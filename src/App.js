@@ -1,13 +1,13 @@
 import "./App.css";
-import Weather from "./Weather";
+import SearchEngine from "./SearchEngine";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="St Kilda" />
+        <SearchEngine defaultCity="St Kilda" />
         <footer className="footer">
-          Coded by
+          Coded by{" "}
           <a href="https://www.rosycella.com" target="_blank" rel="noreferrer">
             Rosy Cella{" "}
           </a>

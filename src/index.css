@@ -4,8 +4,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", serif;
-  color: #4e4e4e;
+  font-family: "bebas", sans-serif;
+  color: #ffffff;
 }
 div,
 p,
@@ -13,7 +13,7 @@ span,
 ul,
 li {
   font-family: "Lato", sans-serif;
-  color: #4e4e4e;
+  color: #ffffff;
 }
 
 ul {

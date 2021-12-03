@@ -1,5 +1,9 @@
 .App .footer {
-  padding-top: 50px;
-  font-size: 12px;
-  text-align: right;
+  padding-top: 5px;
+  font-size: 10px;
+  text-align: left;
+  color: #3a4a4a;
+}
+.App a {
+  text-decoration: none;
 }

@@ -1,0 +1,34 @@
+.WeatherInfo {
+  background: linear-gradient(
+    111.1deg,
+    rgb(0, 40, 70) -4.8%,
+    rgb(255, 115, 115) 82.7%,
+    rgb(255, 175, 123) 97.2%
+  );
+  max-width: 400px;
+  border-radius: 6px;
+}
+.WeatherInfo h1 {
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 20px;
+}
+
+.WeatherInfo .day {
+  padding-left: 60px;
+  padding-bottom: 20px;
+}
+.WeatherInfo .description {
+  letter-spacing: 1.5px;
+  font-size: 20px;
+  text-align: center;
+}
+.WeatherInfo .temperature {
+  letter-spacing: 1.5px;
+  font-size: 50px;
+  text-align: center;
+}
+.WeatherInfo .units {
+  font-size: 20px;
+}

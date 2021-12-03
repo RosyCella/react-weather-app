@@ -2,18 +2,17 @@ import React, { useState } from "react";
 import WeatherInfo from "./WeatherInfo";
 import axios from "axios";
 
-import "./Weather.css";
+import "./SearchEngine.css";
 
 export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
   const [weatherData, setWeatherData] = useState({ ready: false });
   function showDetails(response) {
-    console.log(response.data);
     setWeatherData({
       ready: true,
       temperature: response.data.main.temp,
       city: response.data.name,
-      icon: `https://icons-for-free.com/iconfiles/png/512/sun+sunny+weather+icon-1320196635525068067.png`,
+      icon: response.data.weather[0].icon,
       description: response.data.weather[0].description,
       date: new Date(response.data.dt * 1000),
     });
@@ -43,7 +42,7 @@ export default function Weather(props) {
           />
           <input type="submit" value="Search" className="searchButton" />
         </form>
-        <WeatherInfo data={weatherData} />;
+        <WeatherInfo data={weatherData} />
       </div>
     );
   } else {
