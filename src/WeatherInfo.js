@@ -1,6 +1,7 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
 import FormattedTime from "./FormattedTime";
+import WeatherIcon from "./WeatherIcon";
 
 import "./WeatherInfo.css";
 
@@ -9,7 +10,9 @@ export default function WeatherInfo(props) {
     <div className="WeatherInfo">
       <h1>{props.data.city}</h1>
       <ul>
-        <li>Icon</li>
+        <li>
+          <WeatherIcon />
+        </li>
 
         <li className="text-uppercase description">
           {" "}

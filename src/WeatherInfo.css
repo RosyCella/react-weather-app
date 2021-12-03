@@ -23,6 +23,7 @@
   letter-spacing: 1.5px;
   font-size: 20px;
   text-align: center;
+  padding-bottom: 15px;
 }
 .WeatherInfo .temperature {
   letter-spacing: 1.5px;
@@ -31,4 +32,9 @@
 }
 .WeatherInfo .units {
   font-size: 20px;
+}
+.WeatherInfo .iconWeather {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
