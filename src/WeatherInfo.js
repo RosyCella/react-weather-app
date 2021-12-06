@@ -10,8 +10,8 @@ export default function WeatherInfo(props) {
     <div className="WeatherInfo">
       <h1>{props.data.city}</h1>
       <ul>
-        <li>
-          <WeatherIcon />
+        <li className="icon">
+          <WeatherIcon code={props.data.iconUrl} />
         </li>
 
         <li className="text-uppercase description">

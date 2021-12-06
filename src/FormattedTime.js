@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function FormattedDate(props) {
   let minutes =
     props.date.getMinutes() < 10

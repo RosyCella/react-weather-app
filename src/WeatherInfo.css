@@ -33,8 +33,10 @@
 .WeatherInfo .units {
   font-size: 20px;
 }
-.WeatherInfo .iconWeather {
+.WeatherInfo .icon {
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 15px;
+}
+.WeatherInfo ul {
+  margin-left: 0;
+  padding-left: 0;
 }
