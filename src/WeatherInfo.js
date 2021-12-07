@@ -11,7 +11,7 @@ export default function WeatherInfo(props) {
       <h1>{props.data.city}</h1>
       <ul>
         <li className="icon">
-          <WeatherIcon code={props.data.iconUrl} />
+          <WeatherIcon code={props.data.iconUrl} size={60} />
         </li>
 
         <li className="text-uppercase description">

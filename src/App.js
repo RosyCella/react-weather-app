@@ -1,11 +1,12 @@
 import "./App.css";
 import SearchEngine from "./SearchEngine";
 
-export default function App() {
+export default function App(props) {
   return (
     <div className="App">
       <div className="container">
-        <SearchEngine defaultCity="St Kilda" />
+        <SearchEngine defaulstCity="St Kilda" />
+
         <footer className="footer">
           Coded by{" "}
           <a href="https://www.rosycella.com" target="_blank" rel="noreferrer">
